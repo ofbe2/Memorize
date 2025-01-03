@@ -10,9 +10,33 @@
 		135975E82D23A17D00ECA4F6 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1303DF592D27AEA300841525 /* Exceptions for "Memorize" folder in "Memorize" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.swift,
+			);
+			target = 135975E72D23A17D00ECA4F6 /* Memorize */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		1303DF5A2D27AEA300841525 /* Exceptions for "Memorize" folder in "Compile Sources" phase from "Memorize" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 135975E42D23A17D00ECA4F6 /* Sources */;
+			membershipExceptions = (
+				.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		135975EA2D23A17D00ECA4F6 /* Memorize */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1303DF592D27AEA300841525 /* Exceptions for "Memorize" folder in "Memorize" target */,
+				1303DF5A2D27AEA300841525 /* Exceptions for "Memorize" folder in "Compile Sources" phase from "Memorize" target */,
+			);
 			path = Memorize;
 			sourceTree = "<group>";
 		};
